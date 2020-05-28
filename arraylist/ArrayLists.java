@@ -13,7 +13,7 @@ public class ArrayLists {
 	    //List<String> fruits = new ArrayList<String>();
 		
 		//METHODS OF ARRAYLIST - CLASS : - 
-		
+
 		//add(): - 
 		fruits.add("Apple");
 		fruits.add("Mango");

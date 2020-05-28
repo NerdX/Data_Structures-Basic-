@@ -52,7 +52,14 @@ public class MyLinkedList {
 	}
 	
 	//PRINT() - METHOD OF LINKEDLIST: - 
-	void print() {
+	void print() throws Exception {
+		
+	//CHECK WHETHER OUR LINKEDLIST IS ALREADY EMPTY OR NOT?
+			if(Head == null) {
+					
+				throw new Exception("Sorry! Our LinkedList is Already Empty:(");
+					
+			}
 		
 		Node Temp = Head;
 		
@@ -93,7 +100,7 @@ public class MyLinkedList {
 		}
 		
 		Node toRemove = Temp.Next;
-		
+		 
 		Temp.Next = null;
 	
 		return(toRemove.Data);
